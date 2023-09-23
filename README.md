@@ -49,13 +49,39 @@ Next, was to calculate the ROI for each zipcode using varying ranges of dates. 1
 ## CAVEATS
 
 ## FUTURE WORK
-
+* it maybe important to factor in other metrics like `SizeRank`,
+* presence of a `Metro`(metropolitan area) to explain the prices of the propertiees
+*
 
 
 ## REPOSITORY STRUCTURE * add the names n brif description
+├── visualizations
+│   ├── rating_vs_genress.png
+│   ├── return_on_investment_vs_genres.png
+│   ├── correlation_between_runtime_and_average_rating.png
+├── Data
+│   ├── zillow_data.csv
+├──.env
+├──.gitignore
+├── README.md
+├── student_notebook.pdf
+├── presentation.pdf
+
+
+
+
+
+
+
+
+
+
+
+==================
 
 ├── README.md
 ├── student_notebook.ipynb
+├──.gitignore
 ├──.gitignore
 
 └── data
