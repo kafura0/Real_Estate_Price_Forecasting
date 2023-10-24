@@ -54,52 +54,26 @@ Next, was to calculate the ROI for each zipcode using varying ranges of dates. 1
 *
 
 
-## REPOSITORY STRUCTURE * add the names n brif description
-├── visualizations
-│   ├── rating_vs_genress.png
-│   ├── return_on_investment_vs_genres.png
-│   ├── correlation_between_runtime_and_average_rating.png
-├── Data
-│   ├── zillow_data.csv
-├──.env
-├──.gitignore
-├── README.md
-├── student_notebook.pdf
-├── presentation.pdf
+## REPOSITORY STRUCTURE
 
-
-
-
-
-
-
-
-
-
-
-==================
-
-├── README.md
-├── student_notebook.ipynb
-├──.gitignore
-├──.gitignore
-
-└── data
-    └── zillow_data.csv
-
-
-
-├── package.json
-├── package-lock.json
-├── README.md
-└── src
-    ├── app.js
-    ├── models.js
-    ├── routes.js
-    └── utils
-        ├── another.js
-        ├── constants.js
-        └── index.js
+Real_Estate_Price_Forecasting/
+┣.ipynb_checkpoints/
+┃ ┗ student_notebook-checkpoint.ipynb
+┣ data/
+┃ ┗ zillow_data.csv
+┣ visualizations/
+┃ ┣ 10_yr_ROI.png
+┃ ┣ 1_yr_ROI.png
+┃ ┣ 5_yr_ROI.png
+┃ ┣ hertford_2nd.png
+┃ ┣ median_price_vs_3_year_average.png
+┃ ┣ newark_1st.png
+┃ ┗ rolling.png
+┣.env
+┣.gitignore
+┣ Presentation.pptx
+┣ README.md
+┗ student_notebook.ipynb
 
 
 
